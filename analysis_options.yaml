@@ -1,0 +1,9 @@
+analyzer:
+  errors:
+    lines_longer_than_80_chars: ignore
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    lines_longer_than_80_chars: false
+    prefer_single_quotes: true
